@@ -24,3 +24,19 @@ Here's the screenshot of the model.
 [![model.jpg](https://i.postimg.cc/c468ckG9/model.jpg)](https://postimg.cc/xcDCfRCM)
 
 # Results
+After running prediction model, we can see some interesting results below for our shoppers data -
+
+1) Brand and woe_offer appears to be the most important interaction in the trained decision tree model.
+
+2) Brand = 64486 has the largest impact on the odds of a customer being a repeat shopper.
+
+3) Most important variable in the LASSO model is woe_offer
+
+4) Neural Network node selected the best model at iteration no. 26
+
+5) LASSO/LARS/Penalized regression model is the best model as assessed by the criterion of test lift at the 10th decile.
+
+6) Highest lift two-item rules - 9609 ==> 0 and 0 ==> 9609
+
+
+
